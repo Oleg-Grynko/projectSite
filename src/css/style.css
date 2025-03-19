@@ -1,0 +1,634 @@
+
+/* .col-12 {
+    background-color:aquamarine;
+    height: 250px;
+    /* font-size: 34px; */
+    /* font-weight: normal;
+    font-size: calc(8px + 24 * (100vw / 1400));
+
+}
+#on {
+    background-color:bisque;
+    border: 2px solid black;
+    height: calc(20px + 180 * (100vw / 1400));
+} */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&family=Spectral:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Spectral:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.container-fluid {
+    padding: 0;
+}
+.row {
+    margin: 0;
+}
+
+
+#mail_1sect {
+    /* border: 1px solid black;  */
+    font-size: 13px;
+    font-family: "Arsenal";
+    margin-top: 5px;
+}
+
+#tel_1sect {
+   
+    /* border: 1px solid black; */
+    font-size: 14px;
+    height: px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: "Spectral", serif;
+    font-style: normal;
+}
+#box1_mob {
+    /* position: fixed; */
+    background-color: #fff5f6;
+    height: 90px;
+    padding: 0;
+    height: calc(30px + 60 * (100vw /576));
+    /* z-index: 4; */
+}
+.box2_mob{
+    background-color: #fff5f6;
+    /* border: 1px solid black; */
+    height: 90px;
+    height: calc(30px + 60 * (100vw /576));
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+}
+
+#menu {
+    vertical-align: middle;
+}
+#log_mob {
+    /* border: 1px solid black;   */
+    background-color: #fff5f6;
+    margin-top: 20px;
+    font-family: Arsenal;
+    font-size: 16px;
+    font-weight: bold;
+  
+}
+.mob_menu {
+    /* border: 2px solid */
+}
+.ulmenu {
+    /* border: 2px solid black; */
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+}
+
+#btn_menu {
+    /* border: 1px solid black; */
+    height: 50px;
+    height: calc(1px + 24 * (100vw / 576));
+    margin-left: 150px;
+    margin-left: calc(-40px + 190 * (100vw / 576));
+    
+    position: relative;
+} 
+.onList {
+    
+    height: 900px;
+    height: calc();
+    width: 80%;
+    /* border: 3px solid rgb(250, 170, 170); */
+    position: absolute;
+    margin-left: -12px;
+    /* background-color: rgb(5, 5, 5); */
+    background: linear-gradient(to left, #E69C9D, #FAE7E9);
+    top: 0px;
+    border-radius: 10px;
+    z-index: 5;
+    
+}
+.menu_list_main {
+    position: absolute;
+    left: 35%; 
+    top: 70px;
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.menu_list_catalog {
+    position: absolute;
+    left: 35%; 
+    top: 190px;
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+}
+.menu_list_about {
+    position: absolute;
+    left: 35%; 
+    top: 130px;
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.menu_list_delivery {
+    position: absolute;
+    left: 35%; 
+    top: 250px;
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.menu_list_contacts {
+    position: absolute;
+    left: 35%;
+    top: 310px;
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.menu_list_news {
+    position: absolute;
+    left: 35%;
+    top: 520px;
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.menu_list_cooperation {
+    position: absolute;
+    left: 35%;
+    top: 370px;
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-right: 30%;
+}
+.menu_list_stocks {
+    position: absolute;
+    left: 35%;
+    top: 460px;
+    font-family: Arsenal;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-right: 30%;
+}
+
+
+
+
+#log_mob, .pt {
+    vertical-align: middle;
+}
+#logo_mob {
+    height: 60px;
+    height: calc(1px + 59 * (100vw / 576)); 
+    margin-left: 10%;
+    margin-top: -5px;
+    
+
+}
+.pt {
+    font-size: 27px;
+    font-size: calc(1px + 26 * (100vw / 576));  
+    color: #000;
+} 
+
+.box {
+    height: 80px;
+    background-color: #fff5f6;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.menu_mob {
+    display: inline-block;
+}
+
+#logo_2section {
+    /* border: 0.5px solid black;  */
+    height: 80px;
+    position: relative;
+}
+#logo {
+    /* height: 50%; */
+    height: 51px;
+    margin-top: 18px;
+    height: calc(25px + 26 * (100vw / 1500));
+    
+}
+.prov_tre {
+    position: absolute;
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arsenal;
+    color: #000;
+    font-size: calc(16px + 4 * (100vw / 1500));
+    margin-top: calc(20px + 5 * (100vw /1500));
+}
+.torg_compa {
+    position: absolute;
+    font-family: Arsenal;
+    font-size: 11px;
+    font-weight: regular;
+    margin-top: 45px;
+    margin-top: calc(35px + 10 * (100vw /1500));
+    
+
+}
+#navi {
+    position: relative;
+    /* border: 1px solid black;  */
+}
+.catalog {
+    position: absolute;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-size: calc(13px + 1 * (100vw /1400));
+    color: black;
+    font-weight: regular;
+    margin-top: 30px;
+}
+.about {
+    position: absolute;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-size: calc(13px + 1 * (100vw /1400));
+    color: black;
+    font-weight: regular;
+    margin-top: 30px;
+    margin-left: 25%;
+}
+.deliv {
+    position: absolute;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-size: calc(13px + 1 * (100vw /1400));
+    color: black;
+    font-weight: regular;
+    margin-top: 30px;
+    margin-left: 45%;
+}
+.contacts {
+    position: absolute;
+    font-family: Arsenal;
+    font-size: 14px;
+    font-size: calc(13px + 1 * (100vw /1400));
+    color: black;
+    font-weight: regular;
+    margin-top: 30px;
+    margin-left: 72%;
+}
+
+#cover_mob {
+    padding: 0;
+    
+}
+#fon_mob {
+    position: relative;
+    padding: 0;
+}
+#str1_mob {
+    position: absolute;
+    top: 15px;
+    top: calc(5px + 10 * (100vw / 576));
+    left: 50%;
+    margin-left: -75px;
+    margin-left: calc(-45px - 30 * (100vw / 576));
+    font-family: Arsenal;
+    font-size: 21px;
+    font-size: calc(10px + 11 * (100vw / 576));
+    font-weight: bold;
+
+}
+#str2_mob {
+    position: absolute;
+    top: 39px;
+    top: calc(9px + 27 * (100vw / 576));
+    left: 50%;
+    margin-left: -175px;
+    margin-left: calc(-55px - 120 * (100vw / 576)); 
+    font-family: Arsenal;
+    font-size: 45px;
+    font-size: calc(15px + 30 * (100vw / 576));
+    font-weight: bold;
+    color: white;
+
+}
+#str3_mob {
+    position: absolute;
+    top: 95px;
+    top: calc(20px + 75 * (100vw / 576));
+    left: 50%;
+    margin-left: -83px;
+    margin-left: calc(-50px - 33 * (100vw / 576)); 
+    font-family: Arsenal;
+    font-size: 21px;
+    font-size: calc(14px + 7 * (100vw / 576));
+    font-weight: bold;
+    
+
+}
+
+#idCover {
+    width: 100%;
+} 
+#id_cover_ps {
+    width: 100%;
+} 
+
+#cover_ps {
+    position: relative;
+    width: 100%;
+} 
+#fon_ps {
+    padding: 0;
+}
+
+#str1 {
+    position: absolute;
+    margin-top: -15px;
+    margin-top: calc(-15px + 15 * (100vw / 1400));
+    top: 58px;
+    top: calc(1px + 57 * (100vw / 1400));
+    left: 50%;
+    margin-left: -110px;
+    margin-left: calc(-35px - 65 * (100vw /1500));
+    font-family: Arsenal;
+    font-weight: bold;
+    font-size: 30px;
+    font-size: calc(14px + 16 * (100vw /1400));
+} 
+#str2 {
+    position: absolute;
+    margin-top: -10px;
+    margin-top: calc(-10px + 10 * (100vw / 1400));
+    top: 90px;
+    top: calc(3px + 87 * (100vw / 1400));
+    font-family: Arsenal;
+    font-weight: bold;
+    font-size: 52px;
+    font-size: calc(24px + 28 * (100vw /1400));
+    color: white;
+    left: 50%;
+    margin-left: -210px;
+    margin-left: calc(-70px - 140 * (100vw / 1400));
+
+} 
+#str3 {
+    position: absolute;
+    top: 157px;
+    top: calc(13px + 144 * (100vw / 1400));
+    font-family: Arsenal;
+    font-weight: bold;
+    font-size: 30px;
+    font-size: calc(16px + 14 * (100vw /1400));
+    left: 50%;
+    margin-left: -115px;
+    margin-left: calc(-30px - 85 * (100vw / 1400));
+} 
+.container {
+    padding: 0;
+}
+#mob_hits {
+    padding: 0;
+    padding-left: 5px;
+    text-align: center;
+    font-family: Arsenal;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 35px;
+}
+#slider-mob {
+    margin-top: 30px;
+    width: 80%;
+    
+    height: auto;
+    height: calc(0px + 350 * (100vw / 576));
+    border: 5px solid rgb(229, 154, 155);  
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+.pointsAreaSize {
+    width: 300px;
+    width: calc(50px + 200 * (100vw / 567));
+    display: flex;
+    justify-content:space-between;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    
+}
+.point {
+    display: flex;
+    width: 10px;
+    height: 10px;
+    background-color:rgb(229, 229, 229);
+    border-radius: 100px;
+    cursor: pointer;
+}
+.point:hover {
+    background: rgb(246, 3, 3);
+}
+.color {
+    background: red;
+}
+
+.slider_mob_line {
+   display: flex;
+   width: 100%;
+   height: 100%;
+}
+.img_slide {
+    display: none;
+    width: auto;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid black;   */
+    align-items: center;
+    justify-content: center;
+    animation-name: Animation;
+    animation-duration: 1s;
+}
+.activeImage {
+
+    display: flex;
+    border-radius: 10px;
+}
+
+ 
+.btnAreaSize {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    top: 50%;
+    margin-top: -10px;
+    
+}
+.img_btn_left, .img_btn_right {
+    width: 40px;
+    cursor: pointer;  
+}
+.img_btn_left:active {
+    transform: scale(1.5);
+}
+.img_btn_right:active {
+    transform: scale(1.5);
+}
+@-webkit-keyframes Animation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.btn_mob_button {
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+.btnCatalog {
+    border-radius: 15px;
+    border: 0px solid black;
+    margin-left: 10%;
+    height: 50px;
+    width: 170px;
+    background-color: #E69C9D;  
+    font-family: Arsenal;
+    font-weight: bold;
+    font-size: 18px;
+}
+.about_mob {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arsenal;
+    font-weight: bold;
+}
+
+.about_text_mob {
+    font-family: Arsenal;
+    font-size: 18px;
+    font-weight: regular;
+    margin-top: 30px;
+}
+
+.delivery_mob {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arsenal;
+    font-weight: bold;
+}
+.delivery_text_mob {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Arsenal;
+    font-weight: regular;
+}
+.cooperation_mob {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arsenal;
+    font-weight: bold;
+}
+.cooperation_text_mob {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Arsenal;
+    font-weight: regular;
+}
+.contacts_mob {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arsenal;
+    font-weight: bold;
+}
+.contacts_text_mob {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Arsenal;
+    font-weight: regular;
+}
+.basement_mob {
+    margin-top: 40px;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(to left, #E69C9D, #FAE7E9); 
+    
+}
+.basement_text_mob {
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    margin-top: 30px;
+    margin-left: 35%;
+}
+#base_navi_mob {
+    font-family: Arsenal;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: -15%;
+}
+#base_main_mob {
+    font-family: Arsenal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000;
+}
+#base_catalog_mob {
+    font-family: Arsenal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000;
+}
+#base_about_mob {
+    font-family: Arsenal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000;
+}
+#base_delivery_mob {
+    font-family: Arsenal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
