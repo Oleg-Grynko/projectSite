@@ -2,7 +2,7 @@ let box_main_mob = document.querySelector('.box_main_mob');
 let div = document.querySelector('#products');
 let span__catalog__category = document.createElement('span');
 span__catalog__category.classList.add('catalog__category');
-span__catalog__category.textContent = 'Категории товара:';
+span__catalog__category.textContent = 'Каталог >> Категории товара:';
 div.appendChild(span__catalog__category);
 let divCategory = document.createElement('div');
 divCategory.classList.add('divCategory');

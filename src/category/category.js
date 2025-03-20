@@ -3,7 +3,7 @@ const CATALOG = [
     id: 'a1',
     link: 'eclair.html',
     name: 'Эклеры',
-    img: 'images/category/eclair_komlevo.png',
+    img: 'images/category/eclair_komlevo.jpg',
 
   },
   {
@@ -17,13 +17,13 @@ const CATALOG = [
     id: 'a3',
     link: '#',
     name: 'Изделия с творожной начинкой',
-    img: 'images/category/sochnik.png', 
+    img: 'images/category/sochnik.jpg', 
   },
   {
     id: 'a4',
     link: '#',
     name: 'Зефир',
-    img: 'images/category/zefir.png', 
+    img: 'images/category/zefir.jpg', 
   },
   {
     id: 'a5',

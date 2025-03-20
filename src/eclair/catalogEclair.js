@@ -5,7 +5,7 @@ const eclairCatalog = [
     img: 'images/catalog/eclairs/eclair_slivki.png',
     price: 10,
     nameDesc: 'Эклеры со сливками',
-    img2: 'images/catalog/eclairs/deteil/eclairSliv2.png',
+    img2: 'images/catalog/eclairs/deteil/eclair_komlevo.png',
     description: 'Заварное тесто, начиненное нежнейшей начинкой, заставляет на время забыть обо всем на свете и наслаждаться моментом. Срок годности: не более 10 суток со дня изготовления.',
     massa: 1.7,
     
